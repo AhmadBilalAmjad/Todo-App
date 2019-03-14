@@ -21,15 +21,15 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (err, client) => {
       }
     });
 
-  //   db.collection("Todos")
-  //     .find()
-  //     .count()
-  //     .then(count => {
-  //       console.log(`Total Count: ${count}`);
-  //     })
-  //     .catch(err => {
-  //       console.log(err);
-  //     });
+  // db.collection("Todos")
+  // .find()
+  // .count()
+  // .then(count => {
+  //   console.log(`Total Count: ${count}`);
+  // })
+  // .catch(err => {
+  //   console.log(err);
+  // });
 
   // client.close();
 });
